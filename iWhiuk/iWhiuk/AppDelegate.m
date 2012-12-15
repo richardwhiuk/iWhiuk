@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+  /*  // Override point for customization after application launch.
   if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
       UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
       UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
@@ -31,7 +31,7 @@
       UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
       MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
       controller.managedObjectContext = self.managedObjectContext;
-  }
+  }*/
     return YES;
 }
 							

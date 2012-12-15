@@ -20,14 +20,14 @@
 		9A84228B1677EB62004ED1E2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8422891677EB62004ED1E2 /* MainStoryboard_iPhone.storyboard */; };
 		9A84228E1677EB62004ED1E2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A84228C1677EB62004ED1E2 /* MainStoryboard_iPad.storyboard */; };
 		9A8422911677EB62004ED1E2 /* iWhiuk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A84228F1677EB62004ED1E2 /* iWhiuk.xcdatamodeld */; };
-		9A8422941677EB62004ED1E2 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8422931677EB62004ED1E2 /* MasterViewController.m */; };
-		9A8422971677EB62004ED1E2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8422961677EB62004ED1E2 /* DetailViewController.m */; };
 		9A84229F1677EB62004ED1E2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A84229E1677EB62004ED1E2 /* SenTestingKit.framework */; };
 		9A8422A01677EB62004ED1E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A84226F1677EB62004ED1E2 /* UIKit.framework */; };
 		9A8422A11677EB62004ED1E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8422711677EB62004ED1E2 /* Foundation.framework */; };
 		9A8422A21677EB62004ED1E2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8422751677EB62004ED1E2 /* CoreData.framework */; };
 		9A8422AA1677EB62004ED1E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A8422A81677EB62004ED1E2 /* InfoPlist.strings */; };
 		9A8422AD1677EB62004ED1E2 /* iWhiukTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8422AC1677EB62004ED1E2 /* iWhiukTests.m */; };
+		9AB4B1FA167CEC6200F77C55 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB4B1F7167CEC6200F77C55 /* DetailViewController.m */; };
+		9AB4B1FB167CEC6200F77C55 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB4B1F9167CEC6200F77C55 /* MasterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,10 +58,6 @@
 		9A84228A1677EB62004ED1E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		9A84228D1677EB62004ED1E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		9A8422901677EB62004ED1E2 /* iWhiuk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iWhiuk.xcdatamodel; sourceTree = "<group>"; };
-		9A8422921677EB62004ED1E2 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		9A8422931677EB62004ED1E2 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		9A8422951677EB62004ED1E2 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		9A8422961677EB62004ED1E2 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		9A84229D1677EB62004ED1E2 /* iWhiukTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWhiukTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A84229E1677EB62004ED1E2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		9A8422A71677EB62004ED1E2 /* iWhiukTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iWhiukTests-Info.plist"; sourceTree = "<group>"; };
@@ -69,6 +65,10 @@
 		9A8422AB1677EB62004ED1E2 /* iWhiukTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWhiukTests.h; sourceTree = "<group>"; };
 		9A8422AC1677EB62004ED1E2 /* iWhiukTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWhiukTests.m; sourceTree = "<group>"; };
 		9AB4B1EA167CAF5900F77C55 /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		9AB4B1F6167CEC6200F77C55 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Email/DetailViewController.h; sourceTree = "<group>"; };
+		9AB4B1F7167CEC6200F77C55 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Email/DetailViewController.m; sourceTree = "<group>"; };
+		9AB4B1F8167CEC6200F77C55 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = Email/MasterViewController.h; sourceTree = "<group>"; };
+		9AB4B1F9167CEC6200F77C55 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = Email/MasterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,14 +131,11 @@
 		9A8422771677EB62004ED1E2 /* iWhiuk */ = {
 			isa = PBXGroup;
 			children = (
+				9AB4B1F4167CEC5800F77C55 /* Email */,
 				9A8422801677EB62004ED1E2 /* AppDelegate.h */,
 				9A8422811677EB62004ED1E2 /* AppDelegate.m */,
 				9A8422891677EB62004ED1E2 /* MainStoryboard_iPhone.storyboard */,
 				9A84228C1677EB62004ED1E2 /* MainStoryboard_iPad.storyboard */,
-				9A8422921677EB62004ED1E2 /* MasterViewController.h */,
-				9A8422931677EB62004ED1E2 /* MasterViewController.m */,
-				9A8422951677EB62004ED1E2 /* DetailViewController.h */,
-				9A8422961677EB62004ED1E2 /* DetailViewController.m */,
 				9A84228F1677EB62004ED1E2 /* iWhiuk.xcdatamodeld */,
 				9A8422781677EB62004ED1E2 /* Supporting Files */,
 				9AB4B1EA167CAF5900F77C55 /* Settings.h */,
@@ -177,6 +174,17 @@
 				9A8422A81677EB62004ED1E2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AB4B1F4167CEC5800F77C55 /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				9AB4B1F6167CEC6200F77C55 /* DetailViewController.h */,
+				9AB4B1F7167CEC6200F77C55 /* DetailViewController.m */,
+				9AB4B1F8167CEC6200F77C55 /* MasterViewController.h */,
+				9AB4B1F9167CEC6200F77C55 /* MasterViewController.m */,
+			);
+			name = Email;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,8 +301,8 @@
 				9A84227E1677EB62004ED1E2 /* main.m in Sources */,
 				9A8422821677EB62004ED1E2 /* AppDelegate.m in Sources */,
 				9A8422911677EB62004ED1E2 /* iWhiuk.xcdatamodeld in Sources */,
-				9A8422941677EB62004ED1E2 /* MasterViewController.m in Sources */,
-				9A8422971677EB62004ED1E2 /* DetailViewController.m in Sources */,
+				9AB4B1FA167CEC6200F77C55 /* DetailViewController.m in Sources */,
+				9AB4B1FB167CEC6200F77C55 /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
